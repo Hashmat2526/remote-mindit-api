@@ -1,0 +1,28 @@
+# Star Wars Characters API
+
+This API provides access to Star Wars characters and allows for CRUD operations.
+
+## Endpoints
+
+- **GET /characters**: Fetches all Star Wars characters.
+- **POST /characters**: Creates a new Star Wars character.
+- **GET /characters/:id**: Fetches a specific Star Wars character by ID.
+- **PATCH /characters/:id**: Updates a specific Star Wars character by ID.
+- **DELETE /characters/:id**: Deletes a specific Star Wars character by ID.
+
+## Seeding Data
+
+The API automatically seeds data from the SWAPI when the server restarts. It fetches characters from the SWAPI and adds them to the database. Each character is assigned a random photo from the Picsum Photos API.
+
+## Usage
+
+1. Clone the repository.
+2. Install dependencies: `npm install`.
+3. Start the server: `npm start`.
+4. Use the provided endpoints to interact with the API.
+
+## Env Content
+
+NODE_ENV=
+PORT=4000
+MONGODB_URL=
